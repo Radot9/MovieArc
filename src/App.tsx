@@ -9,14 +9,14 @@ const API_URL =
 const API_SEARCH =
   "https://api.themoviedb.org/3/search/movie?api_key=99d9382263c2faf0029e176a767eed79";
 
-const movie = {
-  genre_ids: [14, 28],
-  popularity: 73.454,
-  poster_path: "/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg",
-  release_date: "2002-05-01",
-  title: "Spider-Man",
-  vote_average: 7.278,
-};
+// const movie = {
+//   genre_ids: [14, 28],
+//   popularity: 73.454,
+//   poster_path: "/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg",
+//   release_date: "2002-05-01",
+//   title: "Spider-Man",
+//   vote_average: 7.278,
+// };
 
 const App = () => {
   const [movies, setMovies] = useState([]);
